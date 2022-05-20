@@ -1,0 +1,121 @@
+/* base */
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+
+@font-face {
+  font-family: "policeP";
+  src: url(Roboto/Roboto-Thin.ttf);
+}
+@font-face {
+  font-family: "policeH";
+  src: url(Roboto/Roboto-Regular.ttf);
+  /* font-size: 1.5em; */
+}
+body {
+  font-family: policeP, Arial, Helvetica, sans-serif;
+}
+
+h1,
+a {
+  font-family: policeH, Arial, Helvetica, sans-serif;
+}
+p {
+  font-family: policeP, Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+/* headerAcceuil */
+.header1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.header1__logo__img {
+  object-fit: cover;
+}
+.header1__gris {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header1__gris__form {
+  /* background-color: #eaeaea; */
+  background: linear-gradient(to bottom, #cdcdcd 1%, #eaeaea 9%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header1__gris__form__icone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* opacity: 1; */
+
+  /* z-index: 2; */
+  height: 60px;
+  width: 60px;
+}
+.header1__gris__form__icone i {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+}
+.header1__gris__form__label .entreeVille {
+  border: 0;
+  background-color: #eaeaea;
+}
+.header1__gris__txtBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f6f6f6;
+  padding-bottom: 20px;
+}
+.header1__gris__txtBtn__h1 {
+  width: 60%;
+  text-align: center;
+}
+.header1__gris__txtBtn__p {
+  width: 80%;
+  text-align: center;
+}
+.header1__gris__txtBtn__btnOpacity {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header1__gris__txtBtn__btnP {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #9356dc; */
+  background: radial-gradient(ellipse at top left, #ff79da, #9356dc);
+  color: white;
+  border: 0;
+  border-radius: 30px;
+  width: 55%;
+  height: 60px;
+}
+
+/* .header1__gris__txtBtn__btnS {
+    display: block;
+    background-color: #FF79DA;
+    color: white;
+    border: 0;
+    border-radius: 30px;
+    width: 55%;
+    height: 60px;
+  } */
+.header1__gris__txtBtn__btnP a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+
