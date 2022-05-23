@@ -7,7 +7,7 @@
 }
 @font-face {
   font-family: "policeH";
-  src: url(Roboto/Roboto-Bold.ttf);
+  src: url(Roboto/Roboto-Medium.ttf);
   /* font-size: 1.5em; */
 }
 body {
@@ -21,7 +21,7 @@ a {
 p {
   font-family: policeP, Arial, Helvetica, sans-serif;
   font-size: 27px;
-  color:gray;
+  color: gray;
 }
 
 /* headerAcceuil */
@@ -31,9 +31,9 @@ p {
   align-items: center;
   width: 100%;
 }
-.header1__logo{
-  width:100%;
-  margin:15px;
+.header1__logo {
+  width: 100%;
+  margin: 15px;
   display: flex;
   justify-content: center;
 }
@@ -44,7 +44,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width:100%;
+  width: 100%;
 }
 .header1__gris__form {
   /* background-color: #eaeaea; */
@@ -84,7 +84,7 @@ p {
   justify-content: space-around;
   background-color: #f6f6f6;
   /* padding-bottom: 20px; */
-  width:100%;
+  width: 100%;
 }
 .header1__gris__txt__h1 {
   width: 60%;
@@ -106,49 +106,131 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: #9356dc; */
+
   background: radial-gradient(ellipse at top left, #ff79da, #9356dc);
-  transition: background-color 250ms;
+
   box-shadow: 0px 6px 10px 3px #d3d3d3;
-  transition:box-shadow 250ms;
+  opacity: 1;
+  transition: opacity 250ms;
   color: white;
-  border: 0;
+  border: 0; 
   border-radius: 30px;
   width: 55%;
-  min-width: 242px;policeH, Arial, Helvetica, sans-serif;
+  min-width: 242px;
   height: 60px;
-  margin:30px 0px 60px 0px;
-  
-}
-.header1__gris__BtnOpacity__btnP:hover{
-  box-shadow: 0px 6px 10px 3px #979696;
-  filter:brightness(110%);
-  
-}
+  margin: 30px 0px 60px 0px;
+  position: absolute;
 
-/* .header1__gris__txtBtn__btnS {
-    display: block;
-    background-color: #FF79DA;
-    color: white;
-    border: 0;
-    border-radius: 30px;
-    width: 55%;
-    height: 60px;
-  } */
-.header1__gris__BtnOpacity__btnP a {
   list-style-type: none;
   text-decoration: none;
   color: white;
   font-size: 20px;
 }
 
-@media screen and (min-width: 767px)
-{
-  .header1__gris__BtnOpacity__btnP{
-    max-width: 300px;
-    
-  }
+.header1__gris__BtnOpacity__btnS {
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 250ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(ellipse at top left, #f999de, #ad83e1);
+  box-shadow: 0px 6px 10px 3px #9b9a9a;
+  color: white;
+  border: 0;
+  border-radius: 30px;
+  width: 55%;
+  min-width: 242px;
+  height: 60px;
+  margin: 30px 0px 60px 0px;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+/* .header1__gris__BtnOpacity__btnP:hover{
+    opacity:0;
+
+  } */
+.header1__gris__BtnOpacity__btnS:hover {
+  opacity: 1;
+}
+
+/* section Fonctionnement */
+
+.fonctionnement{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 20px; 
+}
+.fonctionnement__titre{
+  /* padding-left: 20px; */
+}
+.fonctionnement__list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fonctionnement__list__bloc__icones{
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 20px;
+  width:80%;
+  max-width: 450px;
+  height:100px;
+  margin-left: -30px;
+  border-style: none; 
+  
+  position:absolute; 
+  z-index: 1;
+  
+}
+
+.fonctionnement__list__bloc__icones:hover{
+  color:#9356dc;
+}
+.fonctionnement__list__bloc__icones p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 30px;
+  height:30px;
+  background-color: #9356dc;
+  color:white;
+  font-size: 15px;
+  align-items: center;
+  margin:0;
+  position:sticky;
+
+ margin-right: 15px; 
+  z-index: 1;
+}
+
+.fonctionnement__list__bloc{
+  display:flex;
+  justify-content: center;
+  align-items: center;
  
-}  
+  width:80%;
+  max-width: 450px;
+  height:100px;
+  margin: 30px;
+  background-color: #f6f6f6;
+  
+  border-radius: 25px;
+  box-shadow: 0px 6px 10px 3px #d3d3d3;
+}
+.fonctionnement__list__bloc__lien{
+  font-size: 20px;
+}
 
+@media screen and (min-width: 767px) {
+  .header1__gris__BtnOpacity__btnP {
+    max-width: 300px;
+  }
 
+}
