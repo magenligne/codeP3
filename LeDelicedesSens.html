@@ -3,216 +3,251 @@
   <head>
     <meta charset="utf-8" />
     <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0" /> -->
-    <link rel="stylesheet" href="normalize.css" />
-    <link rel="stylesheet" href="menu.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/menu.css" />
 
     <script
       src="https://kit.fontawesome.com/d4d5c38d7c.js"
       crossorigin="anonymous"
     ></script>
-    <title>Le délice des sens</title>
+    <title>La Note Enchantée</title>
   </head>
 
   <body>
-      
     <header class="header1">
       <div class="header1__logo">
         <a href="index.html"><i class="fa-solid fa-arrow-left"></i></a>
-        <img src="images/logo/ohmyfood@2x.svg" alt="logo">
+        <img src="images/logo/ohmyfood@2x.svg" alt="logo" />
       </div>
       <div class="header1__bkgnd">
-        <img src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Le Délice des Sens">
+        
+        <img src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="La Note Enchantée">
+          
       </div>
     </header>
 
-    <section class="Menu">
-
-        <div class="Menu__NomResto">
-            <h1>Le délice des sens</h1>
-            <div class="restaurant__gris__carte__bas__icone">
-                <i class="fa-solid fa-heart"></i>
-                <i class="fa-regular fa-heart"></i>
-              </div>
+    <section id="Menu">
+      <div class="NomResto">
+        <h1>La Note Enchantée</h1>
+        <div class="NomResto__icone">
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-regular fa-heart"></i>
         </div>
+      </div>
 
+      <div id="Menu__carte">
 
+        <!-- ENTREES -->
+          <h2>Entrées</h2>
+          <div class="h2__bord"></div>
 
-        <div class="Menu__carte">
+          <div id="entrees" class="partie">
 
-
-
-<!-- ENTREES -->
-            <div class="Menu__carte__partie">
-                <h2>Entrées</h2>
-                <div class="Menu__carte__partie__choix">
-                    <div class="Menu__carte__partie__choix__visible">
+          <div class="partie__choix">
+            <div class="partie__choix__vue">
+              <div class="partie__choix__vue__txt">
                         <h3>Tartare de thon</h3>
-                        <div class="Menu__carte__partie__choix__visible__txt">
-                            <p>Assaisonné au yuzu</p>
-                            <p>25€</p>
-                        </div>
-                    </div>
-                    <div class="Menu__carte__partie__choix__caché">
-                        <a href="#">
-                            <i></i>
-                        </a>
-                    </div>                    
-                </div>
-                <div class="Menu__carte__partie__choix">
-                    <div class="Menu__carte__partie__choix__visible">
-                        <h3>Bouchée de homard croustillant </h3>
-                        <div class="Menu__carte__partie__choix__visible__txt">
-                            <p>Et sa farandole de petits légumes</p>
-                            <p>35€</p>
-                        </div>
-                    </div>
-                    <div class="Menu__carte__partie__choix__caché">
-                        <a href="#">
-                            <i></i>
-                        </a>
-                    </div>                    
-                </div>
-                <div class="Menu__carte__partie__choix">
-                    <div class="Menu__carte__partie__choix__visible">
-                        <h3>Velouté de cèpes</h3>
-                        <div class="Menu__carte__partie__choix__visible__txt">
-                            <p>
-                                Aux truffes</p>
-                            <p>20€</p>
-                        </div>
-                    </div>
-                    <div class="Menu__carte__partie__choix__caché">
-                        <a href="#">
-                            <i></i>
-                        </a>
-                    </div>                    
-                </div>
+                        <p>Assaisonné au yuzu</p>
+                      </div>
+
+              <div class="partie__choix__vue__prix">
+                <p>25€</p>
+              </div>
             </div>
 
+            <div class="partie__choix__caché">
+              <i class="fa-solid fa-circle-check"></i>
+            </div>
+          </div>
 
+          <!-- choix 2 -->
+          <div class="partie__choix">
+            <div class="partie__choix__vue">
+              <div class="partie__choix__vue__txt">
+                <h3>Bouchée de homard croustillant </h3>
+                <p>Et sa farandole de petits légumes</p>
+              </div>
 
-<!-- PLATS -->
-            <div class="Menu__carte__partie">
-                <h2>Plats</h2>
-                <div class="Menu__carte__partie__choix">
-                    <div class="Menu__carte__partie__choix__visible">
-                        <h3>Poulet rôti aux herbes de Provence </h3>
-                        <div class="Menu__carte__partie__choix__visible__txt">
-                            <p>Et sa crème de truffe</p>
-                            <p>40€</p>
-                        </div>
-                    </div>
-                    <div class="Menu__carte__partie__choix__caché">
-                        <a href="#">
-                            <i></i>
-                        </a>
-                    </div>                    
-                </div>
-                <div class="Menu__carte__partie__choix">
-                    <div class="Menu__carte__partie__choix__visible">
-                        <h3>Langouste rôtie</h3>
-                        <div class="Menu__carte__partie__choix__visible__txt">
-                            <p>Et ses légumes de saison</p>
-                            <p>35€</p>
-                        </div>
-                    </div>
-                    <div class="Menu__carte__partie__choix__caché">
-                        <a href="#">
-                            <i></i>
-                        </a>
-                    </div>                    
-                </div>
-                <div class="Menu__carte__partie__choix">
-                    <div class="Menu__carte__partie__choix__visible">
-                        <h3>Côte de boeuf Angus </h3>
-                        <div class="Menu__carte__partie__choix__visible__txt">
-                            <p>
-                                Et sa purée de panais</p>
-                            <p>44€</p>
-                        </div>
-                    </div>
-                    <div class="Menu__carte__partie__choix__caché">
-                        <a href="#">
-                            <i></i>
-                        </a>
-                    </div>                    
-                </div>
+              <div class="partie__choix__vue__prix">
+                <p>35€</p>
+              </div>
             </div>
 
+            <div class="partie__choix__caché">
+              <i class="fa-solid fa-circle-check"></i>
+            </div>
+          </div>
 
-<!-- DESSERTS -->
-            <div class="Menu__carte__partie">
-                <h2>Desserts</h2>
-                <div class="Menu__carte__partie__choix">
-                    <div class="Menu__carte__partie__choix__visible">
-                        <h3>Farandole de desserts</h3>
-                        <div class="Menu__carte__partie__choix__visible__txt">
-                            <p>Du chef</p>
-                            <p>18€</p>
-                        </div>
-                    </div>
-                    <div class="Menu__carte__partie__choix__caché">
-                        <a href="#">
-                            <i></i>
-                        </a>
-                    </div>                    
-                </div>
-                <div class="Menu__carte__partie__choix">
-                    <div class="Menu__carte__partie__choix__visible">
-                        <h3>Crème brulée</h3>
-                        <div class="Menu__carte__partie__choix__visible__txt">
-                            <p>Revisité</p>
-                            <p>22€</p>
-                        </div>
-                    </div>
-                    <div class="Menu__carte__partie__choix__caché">
-                        <a href="#">
-                            <i></i>
-                        </a>
-                    </div>                    
-                </div>
-                <div class="Menu__carte__partie__choix">
-                    <div class="Menu__carte__partie__choix__visible">
-                        <h3>Tiramisu </h3>
-                        <div class="Menu__carte__partie__choix__visible__txt">
-                            <p>
-                                À la noisette</p>
-                            <p>23€</p>
-                        </div>
-                    </div>
-                    <div class="Menu__carte__partie__choix__caché">
-                        <a href="#">
-                            <i></i>
-                        </a>
-                    </div>                    
-                </div>
+          <!-- choix 3 -->
+          <div class="partie__choix">
+            <div class="partie__choix__vue">
+              <div class="partie__choix__vue__txt">
+                <h3>Velouté de cèpes</h3>
+                <p>Aux truffes</p>
+              </div>
+
+              <div class="partie__choix__vue__prix">
+                <p>20€</p>
+              </div>
             </div>
 
-
+            <div class="partie__choix__caché">
+              <i class="fa-solid fa-circle-check"></i>
+            </div>
+          </div>
+           <!-- choix 4 -->
         </div>
 
+        <!-- PLATS -->
+          <h2>Plats</h2>
+          <div class="h2__bord"></div>
+
+          <div id="plats" class="partie">
+
+            <!-- plat1 -->
+          <div class="partie__choix">
+            <div class="partie__choix__vue">
+              <div class="partie__choix__vue__txt">
+                <h3>Poulet rôti aux herbes de Provence </h3>
+                <p>Et sa crème de truffe</p>
+              </div>
+
+              <div class="partie__choix__vue__prix">
+                <p>40€</p>
+              </div>
+            </div>
+
+            <div class="partie__choix__caché">
+              <i class="fa-solid fa-circle-check"></i>
+            </div>
+          </div>
+
+          <!-- plat2 -->
+
+          <div class="partie__choix">
+            <div class="partie__choix__vue">
+              <div class="partie__choix__vue__txt">
+                <h3>Langouste rôtie</h3>
+                <p>Et ses légumes de saison</p>
+              </div>
+
+              <div class="partie__choix__vue__prix">
+                <p>35€</p>
+              </div>
+            </div>
+
+            <div class="partie__choix__caché">
+              <i class="fa-solid fa-circle-check"></i>
+            </div>
+          </div>
+
+          <!-- plat3 -->
+          <div class="partie__choix">
+            <div class="partie__choix__vue">
+              <div class="partie__choix__vue__txt">
+                <h3>Côte de boeuf Angus </h3>
+                <p>Et sa purée de panais</p>
+              </div>
+
+              <div class="partie__choix__vue__prix">
+                <p>44€</p>
+              </div>
+            </div>
+
+            <div class="partie__choix__caché">
+              <i class="fa-solid fa-circle-check"></i>
+            </div>
+          </div>
+
+          <!-- plat4 -->
+        </div>
+
+        <!-- DESSERTS -->
+          <h2>Desserts</h2>
+          <div class="h2__bord"></div>
+          
+          <div id="desserts" class="partie">
+
+          <!-- d1 -->
+          <div class="partie__choix">
+            <div class="partie__choix__vue">
+              <div class="partie__choix__vue__txt">
+                <h3>Farandole de desserts</h3>
+                <p>Du chef</p>
+              </div>
+
+              <div class="partie__choix__vue__prix">
+                <p>18€</p>
+              </div>
+            </div>
+
+            <div class="partie__choix__caché">
+              <i class="fa-solid fa-circle-check"></i>
+            </div>
+          </div>
+          <!-- d2 -->
+          <div class="partie__choix">
+            <div class="partie__choix__vue">
+              <div class="partie__choix__vue__txt">
+                <h3>Crème brulée</h3>
+                <p>Revisité</p>
+              </div>
+
+              <div class="partie__choix__vue__prix">
+                <p>22€</p>
+              </div>
+            </div>
+
+            <div class="partie__choix__caché">
+              <i class="fa-solid fa-circle-check"></i>
+            </div>
+          </div>
+          <!-- d3 -->
+          <div class="partie__choix">
+            <div class="partie__choix__vue">
+              <div class="partie__choix__vue__txt">
+                <h3>Tiramisu </h3>
+                À la noisette</p>
+              </div>
+
+              <div class="partie__choix__vue__prix">
+                <p>23€</p>
+              </div>
+            </div>
+
+            <div class="partie__choix__caché">
+              <i class="fa-solid fa-circle-check"></i>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <footer>
-        <!-- <div class="footer__logo"> -->
-          <!-- <img class="footer__logo__img" src="images/logo/ohmyfood@2x.svg" alt="logo"> </div>-->
-          <h3 class="footer__logoBlanc">ohmyfood</h3>
-        
-        <ul class="footer__menu">
-          <li class="footer__menu__lien">
-            <i class="fa-solid fa-utensils"></i><a href="#">Proposer un restaurant</a>
-          </li>
-          <li class="footer__menu__lien">
-            <i class="fa-solid fa-handshake-angle"></i><a href="#">Devenir partenaire</a>
-          </li>
-          <li class="footer__menu__lien2">
-            <a href="#">Mentions légales</a>
-          </li>
-          <li class="footer__menu__lien2">
-            <a href="#">Contact</a>
-          </li>
-        </ul>
-      </footer>
+    <div class="header1__gris__BtnOpacity">
+      <a class="header1__gris__BtnOpacity__btnP" href="#">Commander</a>
+      <a class="header1__gris__BtnOpacity__btnS" href="#">Commander</a>
+    </div>
 
+    <footer class="footer">
+     
+      <h3 class="footer__logoBlanc">ohmyfood</h3>
+
+      <ul class="footer__menu">
+        <li class="footer__menu__lien">
+          <i class="fa-solid fa-utensils"></i
+          ><a href="#">Proposer un restaurant</a>
+        </li>
+        <li class="footer__menu__lien">
+          <i class="fa-solid fa-handshake-angle"></i
+          ><a href="#">Devenir partenaire</a>
+        </li>
+        <li class="footer__menu__lien2">
+          <a href="#">Mentions légales</a>
+        </li>
+        <li class="footer__menu__lien2">
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>

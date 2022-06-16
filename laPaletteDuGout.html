@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0" /> -->
-    <link rel="stylesheet" href="normalize.css" />
-    <link rel="stylesheet" href="menu.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/menu.css" />
 
     <script
       src="https://kit.fontawesome.com/d4d5c38d7c.js"
@@ -14,8 +14,8 @@
   </head>
 
   <body>
-    <header class="header1">
-      <div class="header1__logo">
+    <header  class="header1">
+      <div id="header" class="header1__logo">
         <a href="index.html"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="images/logo/ohmyfood@2x.svg" alt="logo" />
       </div>
@@ -37,12 +37,13 @@
       </div>
 
       <div id="Menu__carte">
-        <!-- ENTREES -->
-        <div id="entrees" class="partie">
-          <h2>Entrées</h2>
-          <div class="partie__bord"></div>
 
-          <div class="partie__choix">
+        <!-- ENTREES -->
+          <h2>Entrées</h2>
+          <div class="h2__bord"></div>
+
+          <div id="entrees" class="partie">
+            <div class="partie__choix">
             <div class="partie__choix__vue">
               <div class="partie__choix__vue__txt">
                 <h3>Fricassée d'escargot</h3>
@@ -97,9 +98,10 @@
         </div>
 
         <!-- PLATS -->
-        <div id="plats" class="partie">
           <h2>Plats</h2>
-          <div class="partie__bord"></div>
+          <div class="h2__bord"></div>
+
+          <div id="plats" class="partie">
 
           <!-- plat1 -->
           <div class="partie__choix">
@@ -160,9 +162,10 @@
         </div>
 
         <!-- DESSERTS -->
-        <div id="desserts" class="partie">
           <h2>Desserts</h2>
-          <div class="partie__bord"></div>
+          <div class="h2__bord"></div>
+          
+          <div id="desserts" class="partie">
 
           <!-- d1 -->
           <div class="partie__choix">
@@ -220,8 +223,8 @@
     </section>
 
     <div class="header1__gris__BtnOpacity">
-      <a class="header1__gris__BtnOpacity__btnP" href="#">Commander</a>
-      <a class="header1__gris__BtnOpacity__btnS" href="#">Commander</a>
+      <a class="header1__gris__BtnOpacity__btnP" href="#Menu">Commander</a>
+      <a class="header1__gris__BtnOpacity__btnS" href="#Menu">Commander</a>
     </div>
 
     <footer class="footer">
