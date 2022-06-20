@@ -1,0 +1,35 @@
+.footer {
+  background-color: rgb(54, 53, 53);
+  color: white;
+}
+.footer a {
+  color: white;
+  font-size: 15px;
+  font-family: "policeH", Arial, Helvetica, sans-serif;
+}
+.footer__logoBlanc {
+  font-family: "policeH3", Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin: 0;
+  padding: 20px 20px 0 20px;
+  font-weight: normal;
+}
+.footer__menu {
+  list-style-type: none;
+  margin: 0px;
+  padding: 20px;
+}
+.footer__menu__lien {
+  font-family: "policeH", Arial, Helvetica, sans-serif;
+}
+.footer__menu__lien a {
+  padding-left: 10px;
+}
+.footer__menu li {
+  padding-bottom: 5px;
+}
+
+.fa-handshake-angle {
+  font-size: 9px;
+  color: white;
+}/*# sourceMappingURL=footer.css.map */

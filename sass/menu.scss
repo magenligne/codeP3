@@ -4,8 +4,7 @@
 @import "coeur.scss";
 @import "police.scss";
 
-
-  /* font-size: 1.5em; */
+/* font-size: 1.5em; */
 
 body {
   font-family: "policeP", Arial, Helvetica, sans-serif;
@@ -19,8 +18,7 @@ h1 {
   margin-left: 5%;
 }
 
-h3,
-{
+h3 {
   font-family: "policeH", Arial, Helvetica, sans-serif;
 }
 a {
@@ -82,17 +80,17 @@ a {
     margin-right: 30px;
   }
 }
-@keyframes apparition{
-  0%{
-    opacity:0;
+@keyframes apparition {
+  0% {
+    opacity: 0;
     transform: translateY(0);
   }
   // 40%{
   //   opacity:0.5;
   //   transform: translateY(-100px);
   // }
-  100%{
-    opacity:1;
+  100% {
+    opacity: 1;
     transform: translateY(-200px);
   }
 }
@@ -101,7 +99,7 @@ a {
   animation-delay: 250ms;
 }
 #desserts {
-  animation-delay: 500ms;  
+  animation-delay: 500ms;
 }
 
 #Menu__carte h2 {
@@ -114,7 +112,6 @@ a {
   border: 2px solid #98e2cf;
   margin-left: 5%;
   margin-bottom: 10px;
-  
 }
 
 .partie {
@@ -122,16 +119,12 @@ a {
   flex-direction: column;
   align-items: center;
   opacity: 0;
-  position:relative;
-  top:200px;
- 
-  
-    animation:1.5s apparition;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in-out;
-  
+  position: relative;
+  top: 200px;
 
- 
+  animation: 1.5s apparition;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
 
   &__choix {
     display: flex;

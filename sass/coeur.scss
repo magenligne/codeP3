@@ -1,24 +1,24 @@
-@mixin coeur{
-    width: 33px;
-        padding-right: 3px;
-        height: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        &:hover .fa-solid {
-          font-size: 31px;
-          z-index: 1;
-        }
-        .fa-regular {
-          position: absolute;
-          font-size: 30px;
-          // font-weight: 100;
-        }
-        .fa-solid {
-          background-image: linear-gradient($grad1, $grad2);
-          background-clip: text;
-          color: transparent;
-          transition: font-size 100ms;
-          font-size: 0px;
-        }
+@mixin coeur {
+  width: 33px;
+  padding-right: 3px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover .fa-solid {
+    font-size: 31px;
+    z-index: 1;
   }
+  .fa-regular {
+    position: absolute;
+    font-size: 30px;
+    // font-weight: 100;
+  }
+  .fa-solid {
+    background-image: linear-gradient($grad1, $grad2);
+    background-clip: text;
+    color: transparent;
+    transition: font-size 100ms;
+    font-size: 0px;
+  }
+}
