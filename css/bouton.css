@@ -1,20 +1,19 @@
-@import "variables.scss";
 .header1__gris__BtnOpacity {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #f6f6f6;
-  & a {
-    font-family: "policeH", Arial, Helvetica, sans-serif;
-  }
+}
+.header1__gris__BtnOpacity a {
+  font-family: "policeH", Arial, Helvetica, sans-serif;
 }
 
 .header1__gris__BtnOpacity__btnP {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: radial-gradient(ellipse at top left, $grad2, $grad1);
+  background: radial-gradient(ellipse at top left, #ff79da, #9356dc);
   box-shadow: 0px 6px 10px 3px #d3d3d3;
   opacity: 1;
   transition: opacity 250ms;
@@ -30,9 +29,7 @@
   text-decoration: none;
   color: white;
   font-size: 20px;
-  // @media screen and (min-width: 767px) {
   max-width: 300px;
-  // }
 }
 
 .header1__gris__BtnOpacity__btnS {
@@ -42,7 +39,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: radial-gradient(ellipse at top left, $grad2, $grad1);
+  background: radial-gradient(ellipse at top left, #ff79da, #9356dc);
   box-shadow: 0px 6px 10px 3px #9b9a9a;
   color: white;
   border: 0;
@@ -55,11 +52,9 @@
   text-decoration: none;
   color: white;
   font-size: 20px;
-  // @media screen and (min-width: 767px) {
   max-width: 300px;
-  // }
 }
 
 .header1__gris__BtnOpacity__btnS:hover {
   opacity: 1;
-}
+}/*# sourceMappingURL=bouton.css.map */
