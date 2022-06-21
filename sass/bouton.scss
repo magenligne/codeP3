@@ -1,5 +1,5 @@
 @import "variables.scss";
-.header1__gris__BtnOpacity {
+.BtnOpacity {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -10,7 +10,7 @@
   }
 }
 
-.header1__gris__BtnOpacity__btnP {
+.BtnOpacity__btnP {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,7 +35,7 @@
   // }
 }
 
-.header1__gris__BtnOpacity__btnS {
+.BtnOpacity__btnS {
   opacity: 0;
   z-index: 1;
   transition: opacity 250ms;
@@ -60,6 +60,6 @@
   // }
 }
 
-.header1__gris__BtnOpacity__btnS:hover {
+.BtnOpacity__btnS:hover {
   opacity: 1;
 }
