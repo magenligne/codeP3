@@ -3,12 +3,12 @@
   color: white;
   & a {
     color: white;
-    font-size: 15px;
+    font-size: 17px;
     font-family: "policeH", Arial, Helvetica, sans-serif;
   }
   &__logoBlanc {
     font-family: "policeH3", Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 24px;
     margin: 0;
     padding: 20px 20px 0 20px;
     font-weight: normal;
@@ -20,8 +20,10 @@
 
     &__lien {
       font-family: "policeH", Arial, Helvetica, sans-serif;
+     
       & a {
         padding-left: 10px;
+       
       }
     }
     // &__lien2 a {

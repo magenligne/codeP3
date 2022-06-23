@@ -3,11 +3,14 @@
 @import "bouton.scss";
 @import "coeur.scss";
 @import "police.scss";
+
 @import "loadingSpinner.scss";
+// .loading {
+//   height:0;
+//   & img{height:0;}
+// }
 
 
-
-/* font-size: 1.5em; */
 
 body {
   font-family: "policeP", Arial, Helvetica, sans-serif;
@@ -21,13 +24,15 @@ h1 {
   margin-left: 5%;
 }
 
-h3 {
+h3,p {
   font-family: "policeH", Arial, Helvetica, sans-serif;
 }
 a {
   text-decoration: none;
   // color: #000000;
 }
+
+
 
 /* headerAcceuil */
 .header1 {
@@ -50,6 +55,7 @@ a {
       position: absolute;
       & i {
         font-size: 20px;
+        color:#000000;
       }
     }
   }
@@ -109,6 +115,7 @@ a {
   margin-bottom: 5px;
   margin-left: 5%;
   text-transform: uppercase;
+  font-size: 20px;
 }
 .h2__bord {
   width: 50px;
@@ -199,8 +206,7 @@ a {
       width: 80px;
       opacity: 1;
       i {
-        transform: rotate(700deg);
-        // transition: transform 3s ease-in-out ;
+      
         animation-name: tourneCoche;
         animation-duration: 1s;
         animation-fill-mode: forwards;
