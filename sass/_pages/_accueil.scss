@@ -1,16 +1,20 @@
 /* base */
-@import "footer.scss";
-@import "bouton.scss";
-@import "loadingSpinner.scss";
-@import "variables.scss";
-@import "coeur.scss";
-@import "police.scss";
+@import "_utils_variables.scss";
+@import "_utils_police.scss";
+@import "_utils_coeur.scss";
+@import "_composants_bouton.scss";
+@import "_loadingSpinner.scss";
+@import "_footer.scss";
 
 body {
   font-family: "policeP", Arial, Helvetica, sans-serif;
   color: #000000;
   max-width: 1700px;
   margin: auto;
+}
+
+h1 {
+  font-family: "policeH", Arial, Helvetica, sans-serif;
 }
 
 h3 {

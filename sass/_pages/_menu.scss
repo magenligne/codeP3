@@ -1,16 +1,15 @@
 /* base */
-@import "footer.scss";
-@import "bouton.scss";
-@import "coeur.scss";
-@import "police.scss";
+@import "_utils_police.scss";
+@import "_utils_coeur.scss";
+@import "_composants_bouton.scss";
 
-@import "loadingSpinner.scss";
+@import "_loadingSpinner.scss";
+@import "_footer.scss";
+
 // .loading {
 //   height:0;
 //   & img{height:0;}
 // }
-
-
 
 body {
   font-family: "policeP", Arial, Helvetica, sans-serif;
