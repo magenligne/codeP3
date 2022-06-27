@@ -1,15 +1,15 @@
-.header1__gris__BtnOpacity {
+.BtnOpacity {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #f6f6f6;
 }
-.header1__gris__BtnOpacity a {
+.BtnOpacity a {
   font-family: "policeH", Arial, Helvetica, sans-serif;
 }
 
-.header1__gris__BtnOpacity__btnP {
+.BtnOpacity__btnP {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,7 +32,7 @@
   max-width: 300px;
 }
 
-.header1__gris__BtnOpacity__btnS {
+.BtnOpacity__btnS {
   opacity: 0;
   z-index: 1;
   transition: opacity 250ms;
@@ -55,6 +55,6 @@
   max-width: 300px;
 }
 
-.header1__gris__BtnOpacity__btnS:hover {
+.BtnOpacity__btnS:hover {
   opacity: 1;
 }/*# sourceMappingURL=bouton.css.map */

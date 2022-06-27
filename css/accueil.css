@@ -5,12 +5,12 @@
 }
 .footer a {
   color: white;
-  font-size: 15px;
+  font-size: 17px;
   font-family: "policeH", Arial, Helvetica, sans-serif;
 }
 .footer__logoBlanc {
   font-family: "policeH3", Arial, Helvetica, sans-serif;
-  font-size: 25px;
+  font-size: 24px;
   margin: 0;
   padding: 20px 20px 0 20px;
   font-weight: normal;
@@ -35,18 +35,18 @@
   color: white;
 }
 
-.header1__gris__BtnOpacity {
+.BtnOpacity {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #f6f6f6;
 }
-.header1__gris__BtnOpacity a {
+.BtnOpacity a {
   font-family: "policeH", Arial, Helvetica, sans-serif;
 }
 
-.header1__gris__BtnOpacity__btnP {
+.BtnOpacity__btnP {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,7 +69,7 @@
   max-width: 300px;
 }
 
-.header1__gris__BtnOpacity__btnS {
+.BtnOpacity__btnS {
   opacity: 0;
   z-index: 1;
   transition: opacity 250ms;
@@ -92,7 +92,7 @@
   max-width: 300px;
 }
 
-.header1__gris__BtnOpacity__btnS:hover {
+.BtnOpacity__btnS:hover {
   opacity: 1;
 }
 
@@ -109,8 +109,8 @@
   opacity: 0;
   position: fixed;
   z-index: -1;
-  -webkit-animation: 4s loader;
-          animation: 4s loader;
+  -webkit-animation: 3s loader;
+          animation: 3s loader;
 }
 .loading img {
   margin: 20% 20px 20px 20px;
@@ -123,9 +123,9 @@
   -webkit-animation: logoAnime 2s ease-in-out infinite;
           animation: logoAnime 2s ease-in-out infinite;
   position: relative;
-  width: 100px;
-  height: 100px;
-  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
   border: 2px solid rgb(147, 86, 220);
 }
 
@@ -136,7 +136,7 @@
   right: -1px;
   bottom: -1px;
   left: -1px;
-  border-radius: 100px;
+  border-radius: 50px;
   border-top: 10px solid #ff79da;
   -webkit-animation: logoAnime 1s ease-in-out infinite;
           animation: logoAnime 1s ease-in-out infinite;
@@ -215,8 +215,8 @@ h3 {
   font-family: "policeH3", Arial, Helvetica, sans-serif;
 }
 
-h1,
 h2 {
+  margin-left: 7%;
   font-family: "policeH", Arial, Helvetica, sans-serif;
 }
 
@@ -271,6 +271,7 @@ a {
 }
 
 .header1__gris__form__label .entreeVille {
+  width: 200px;
   border: 0;
   background-color: #eaeaea;
   font-size: 20px;
@@ -390,6 +391,11 @@ a {
     margin: 0px;
     text-align: center;
     padding-bottom: 10px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .fonctionnement__list__bloc__lien {
+    margin-left: 25%;
   }
 }
 

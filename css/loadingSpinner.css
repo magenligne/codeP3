@@ -11,8 +11,8 @@
   opacity: 0;
   position: fixed;
   z-index: -1;
-  -webkit-animation: 4s loader;
-          animation: 4s loader;
+  -webkit-animation: 3s loader;
+          animation: 3s loader;
 }
 .loading img {
   margin: 20% 20px 20px 20px;
@@ -25,9 +25,9 @@
   -webkit-animation: logoAnime 2s ease-in-out infinite;
           animation: logoAnime 2s ease-in-out infinite;
   position: relative;
-  width: 100px;
-  height: 100px;
-  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
   border: 2px solid rgb(147, 86, 220);
 }
 
@@ -38,7 +38,7 @@
   right: -1px;
   bottom: -1px;
   left: -1px;
-  border-radius: 100px;
+  border-radius: 50px;
   border-top: 10px solid #ff79da;
   -webkit-animation: logoAnime 1s ease-in-out infinite;
           animation: logoAnime 1s ease-in-out infinite;
