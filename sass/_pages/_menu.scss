@@ -1,10 +1,10 @@
 /* base */
-@import "_utils_police.scss";
+@import "_base_police.scss";
 @import "_utils_coeur.scss";
 @import "_composants_bouton.scss";
 
-@import "_loadingSpinner.scss";
-@import "_footer.scss";
+@import "_layouts_loadingSpinner.scss";
+@import "_layouts_footer.scss";
 
 // .loading {
 //   height:0;
@@ -118,7 +118,7 @@ a {
 }
 .h2__bord {
   width: 50px;
-  border: 2px solid #98e2cf;
+  border: 2px solid #99E2D0;
   margin-left: 5%;
   margin-bottom: 10px;
 }
