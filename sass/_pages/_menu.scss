@@ -1,8 +1,8 @@
 /* base */
-@import "_base_police.scss";
+@import "_utils_variables.scss";
 @import "_utils_coeur.scss";
+@import "_base_police.scss";
 @import "_composants_bouton.scss";
-
 @import "_layouts_loadingSpinner.scss";
 @import "_layouts_footer.scss";
 
@@ -28,10 +28,7 @@ h3 {
 }
 a {
   text-decoration: none;
- 
 }
-
-
 
 /* headerAcceuil */
 .header1 {
@@ -54,7 +51,7 @@ a {
       position: absolute;
       & i {
         font-size: 20px;
-        color:#000000;
+        color: #000000;
       }
     }
   }
@@ -66,7 +63,6 @@ a {
   &__bkgnd img {
     object-fit: cover;
     width: 100%;
-    
   }
 }
 
@@ -118,7 +114,7 @@ a {
 }
 .h2__bord {
   width: 50px;
-  border: 2px solid #99E2D0;
+  border: 2px solid $tertiaire;
   margin-left: 5%;
   margin-bottom: 10px;
 }
@@ -152,14 +148,12 @@ a {
       align-items: center;
       width: 0px;
       height: 85px;
-      background-color: #98e2cf;
+      background-color: $tertiaire;
       border-radius: 0 25px 25px 0;
       transition: width;
-
       opacity: 0;
       transition: all 1s;
       & i {
-        // font-size: 0px;
         font-size: 40px;
         color: white;
       }
@@ -169,16 +163,16 @@ a {
       justify-content: space-between;
       align-items: center;
       width: 100%;
-      height:100%;
-      transition:width;
+      height: 100%;
+      transition: width;
       transition: all 1s;
       &__txt {
         display: flex;
         flex-direction: column;
         justify-content: center;
         width: 80%;
-        height:100%;
-        transition:width;
+        height: 100%;
+        transition: width;
         transition: all 1s;
         margin: 0 0 0 25px;
         & h3,
@@ -187,7 +181,7 @@ a {
           overflow: hidden;
           text-overflow: ellipsis;
           white-space: nowrap;
-          margin:5px;
+          margin: 5px;
         }
       }
       &__prix {
@@ -197,7 +191,7 @@ a {
         text-align: center;
         align-items: center;
         justify-content: center;
-        & p{
+        & p {
           font-family: "policeH", Arial, Helvetica, sans-serif;
         }
       }
@@ -212,7 +206,6 @@ a {
       width: 80px;
       opacity: 1;
       i {
-      
         animation-name: tourneCoche;
         animation-duration: 1s;
         animation-fill-mode: forwards;
@@ -230,5 +223,3 @@ a {
     transform: rotate(360deg);
   }
 }
-
-
