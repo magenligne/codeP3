@@ -72,7 +72,10 @@ a {
   z-index: 1;
   position: relative;
   border-radius: 50px;
-  margin-top: -200px;
+  margin-top: -240px;
+  @media screen and (min-width: 390px) {
+    margin-top: -180px;
+  }
 }
 .NomResto {
   padding: 20px 10px 10px 10px;
