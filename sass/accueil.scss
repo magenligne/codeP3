@@ -1,17 +1,10 @@
 /* base */
-// @import "_utils/variables";
-// @import "_utils/coeur.scss";
-// @import "_base/police.scss";
-// @import "_composants/bouton.scss";
-// @import "_layouts/loadingSpinner.scss";
-// @import "_layout/footer.scss";
-
-@import "_utils_variables.scss";
-@import "_utils_coeur.scss";
-@import "_base_police.scss";
-@import "_composants_bouton.scss";
-@import "_layouts_loadingSpinner.scss";
-@import "_layout_footer.scss";
+@import "_utils/variables.scss";
+@import "_utils/coeur.scss";
+@import "_base/police.scss";
+@import "_composants/bouton.scss";
+@import "_layouts/loadingSpinner.scss";
+@import "_layouts/footer.scss";
 
 
 body {
