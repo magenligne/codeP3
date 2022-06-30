@@ -22,38 +22,13 @@
 .BtnOpacity a {
   font-family: "policeH", Arial, Helvetica, sans-serif;
 }
-
-.BtnOpacity__btnP {
+.BtnOpacity__btnS {
+  transition: all 250ms;
   display: flex;
   justify-content: center;
   align-items: center;
   background: radial-gradient(ellipse at top left, #ff79da, #9356dc);
   box-shadow: 0px 6px 10px 3px #d3d3d3;
-  opacity: 1;
-  color: white;
-  border: 0;
-  border-radius: 30px;
-  width: 55%;
-  min-width: 242px;
-  height: 60px;
-  margin: 45px 0px 70px 0px;
-  position: absolute;
-  list-style-type: none;
-  text-decoration: none;
-  color: white;
-  font-size: 20px;
-  max-width: 300px;
-}
-
-.BtnOpacity__btnS {
-  opacity: 0;
-  z-index: 1;
-  transition: opacity 250ms;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: radial-gradient(ellipse at top left, #f999de, #ad83e1);
-  box-shadow: 0px 6px 10px 3px #9b9a9a;
   color: white;
   border: 0;
   border-radius: 30px;
@@ -66,9 +41,9 @@
   font-size: 20px;
   max-width: 300px;
 }
-
 .BtnOpacity__btnS:hover {
-  opacity: 1;
+  background: radial-gradient(ellipse at top left, #f999de, #ad83e1);
+  box-shadow: 0px 6px 10px 3px #9b9a9a;
 }
 
 .loading {
@@ -321,13 +296,13 @@ a {
   }
 }
 #plats {
-  -webkit-animation-delay: 250ms;
-          animation-delay: 250ms;
+  -webkit-animation-delay: 2.25s;
+          animation-delay: 2.25s;
 }
 
 #desserts {
-  -webkit-animation-delay: 500ms;
-          animation-delay: 500ms;
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
 }
 
 #Menu__carte h2 {
@@ -357,6 +332,8 @@ a {
           animation-fill-mode: forwards;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 .partie__choix {
   display: flex;
