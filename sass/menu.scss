@@ -3,7 +3,6 @@
 @import "_utils/coeur.scss";
 @import "_base/police.scss";
 @import "_composants/bouton.scss";
-@import "_layouts/loadingSpinner.scss";
 @import "_layouts/footer.scss";
 
 // .loading {
@@ -99,10 +98,10 @@ a {
 }
 
 #plats {
-  animation-delay: 2.25s;
+  animation-delay: 0.25s;
 }
 #desserts {
-  animation-delay: 2.5s;
+  animation-delay: 0.5s;
 }
 
 #Menu__carte h2 {
@@ -129,7 +128,7 @@ a {
   animation: 1.5s apparition;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
-  animation-delay: 2s;
+  // animation-delay: 2s;
 
   &__choix {
     display: flex;

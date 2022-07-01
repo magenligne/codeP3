@@ -6,7 +6,6 @@
 @import "_layouts/loadingSpinner.scss";
 @import "_layouts/footer.scss";
 
-
 body {
   font-family: "policeP", Arial, Helvetica, sans-serif;
   color: #000000;
@@ -206,9 +205,15 @@ a {
       margin-left: 25%;
     }
   }
+  &:hover {
+    background-color: #e9e9e9;
+  }
 }
-.fonctionnement__list__bloc__icones:hover {
-  color: $grad1;
+.fonctionnement__list__bloc__icones {
+  color: gray;
+  &:hover {
+    color: $grad1;
+  }
 }
 
 /* section restaurant */

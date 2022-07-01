@@ -12,13 +12,12 @@
   .fa-regular {
     position: absolute;
     font-size: 30px;
-    // font-weight: 100;
   }
   .fa-solid {
     background-image: linear-gradient($grad1, $grad2);
     background-clip: text;
     color: transparent;
-    transition: font-size 100ms;
+    transition: font-size 250ms;
     font-size: 0px;
   }
 }

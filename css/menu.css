@@ -46,97 +46,6 @@
   box-shadow: 0px 6px 10px 3px #9b9a9a;
 }
 
-.loading {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  background: white;
-  opacity: 0;
-  position: fixed;
-  z-index: -1;
-  -webkit-animation: 3s loader;
-          animation: 3s loader;
-}
-.loading img {
-  margin: 20% 20px 20px 20px;
-  width: 20%;
-}
-
-.arc {
-  display: flex;
-  background: radial-gradient(circle at top, #ff79da 34%, #9356dc);
-  -webkit-animation: logoAnime 2s ease-in-out infinite;
-          animation: logoAnime 2s ease-in-out infinite;
-  position: relative;
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
-  border: 2px solid rgb(147, 86, 220);
-}
-
-.arc:after {
-  content: "";
-  position: absolute;
-  top: -1px;
-  right: -1px;
-  bottom: -1px;
-  left: -1px;
-  border-radius: 50px;
-  border-top: 10px solid #ff79da;
-  -webkit-animation: logoAnime 1s ease-in-out infinite;
-          animation: logoAnime 1s ease-in-out infinite;
-}
-
-@-webkit-keyframes logoAnime {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes logoAnime {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-@-webkit-keyframes loader {
-  0% {
-    opacity: 1;
-    z-index: 5;
-  }
-  78% {
-    opacity: 1;
-    z-index: 5;
-  }
-  100% {
-    opacity: 0;
-    z-index: -1;
-  }
-}
-@keyframes loader {
-  0% {
-    opacity: 1;
-    z-index: 5;
-  }
-  78% {
-    opacity: 1;
-    z-index: 5;
-  }
-  100% {
-    opacity: 0;
-    z-index: -1;
-  }
-}
 .footer {
   background-color: rgb(54, 53, 53);
   color: white;
@@ -270,7 +179,7 @@ a {
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
-  transition: font-size 100ms;
+  transition: font-size 250ms;
   font-size: 0px;
 }
 
@@ -296,13 +205,13 @@ a {
   }
 }
 #plats {
-  -webkit-animation-delay: 2.25s;
-          animation-delay: 2.25s;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
 }
 
 #desserts {
-  -webkit-animation-delay: 2.5s;
-          animation-delay: 2.5s;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
 }
 
 #Menu__carte h2 {
@@ -332,8 +241,6 @@ a {
           animation-fill-mode: forwards;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
 }
 .partie__choix {
   display: flex;

@@ -1,5 +1,4 @@
 // loading spinner
-// @import "_utils_variables.scss";
 $tailleArc:50px;
 .loading {
   display: flex;
@@ -11,16 +10,16 @@ $tailleArc:50px;
   margin: 0;
   padding: 0;
   background: white;
-  opacity: 0;
   position: fixed;
+  opacity: 0;  
   z-index: -1;
   animation: 3s loader;
+    // z-index: 1;
+    // opacity: 1;
+
   & img {
     margin: 20% 20px 20px 20px;
     width: 20%;
-    // z-index: -1;
-    // opacity: 0;
-    // animation: 5s loader;
   }
 }
 
@@ -44,12 +43,9 @@ $tailleArc:50px;
   left: -1px;
   border-radius: $tailleArc;
   border-top: 10px solid $grad2;
-  // border:2px solid transparent;
-  // border-top-color:red;
   animation: logoAnime 1s ease-in-out infinite;
 }
-// .logoAnime {
-// }
+
 @keyframes logoAnime {
   0% {
     transform: rotate(0deg);
